@@ -5,7 +5,9 @@ import {
   LibraryBooks,
   SelectAllRounded,
   TollRounded,
-  TrendingUpRounded
+  TrendingUpRounded,
+  Map,
+  ListAlt
 } from '@material-ui/icons';
 import { BrowserRouter } from 'react-router-dom';
 import PageLayout from '../components/templates/PageLayout';
@@ -16,6 +18,7 @@ import Coins from './explore/Coins';
 import CoinDetails from './explore/CoinDetails';
 import Updates from './explore/Updates';
 import DeFi from './explore/DeFi';
+import MapTradder from './explore/MapTradder';
 import { RootModule } from '../models';
 
 const Main: React.FC = () => {
@@ -75,6 +78,20 @@ const Main: React.FC = () => {
           page: <DeFi />,
           index: 5
         },
+        {
+          label: 'MapTradder',
+          path: '/maptradder',
+          icon: <Map />,
+          page: <MapTradder />,
+          index: 6
+        },
+        {
+          label: 'Blockchain News',
+          path: '/blockchain-news',
+          icon: <ListAlt />,
+          page: <MapTradder />,
+          index: 6
+        }
       ]
     }
   ];
