@@ -53,3 +53,12 @@ As your data changes, different profile information, or languages may impact you
 It is possible in some instances you won’t use all organisms in a template, whether a user doesn’t have those enabled, or they don’t apply, in the pages is where you would adjust what parts of the template are shown.
 
 <img src="src/assets/images/Pages.png">
+
+### Redux architecture
+
+<img src="src/assets/images/reduxdataflowdiagram.gif">
+
+<img src="src/assets/images/summaryRedux.PNG">
+
+Source: [https://redux.js.org/tutorials/fundamentals/part-2-concepts-data-flow](https://redux.js.org/tutorials/fundamentals/part-2-concepts-data-flow)  
+
