@@ -90,7 +90,7 @@ const Main: React.FC = () => {
           path: '/blockchain-news',
           icon: <ListAlt />,
           page: <MapTradder />,
-          index: 6
+          index: 7
         }
       ]
     }

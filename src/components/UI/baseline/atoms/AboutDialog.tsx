@@ -48,7 +48,7 @@ const AboutDialog: React.FC<Props> = ({ open, toggleClose }) => {
     <DialogLayout
       open={open}
       toggleClose={toggleClose}
-      title="Cryptoscapes"
+      title="CryptoUniverse"
       subheader={`Version ${version}`}
       maxWidth="xs"
     >
@@ -86,7 +86,7 @@ const AboutDialog: React.FC<Props> = ({ open, toggleClose }) => {
         <Button
           className={classes.linkButton}
           variant="contained"
-          href='https://github.com/leonardtng/cryptoscapes'
+          href='https://github.com/manhdg98'
           target='_blank'
           rel="noopener noreferrer"
           color="primary"
@@ -98,7 +98,7 @@ const AboutDialog: React.FC<Props> = ({ open, toggleClose }) => {
         <Button
           className={classes.linkButton}
           variant="contained"
-          href='https://github.com/leonardtng/cryptoscapes/projects/1'
+          href='https://github.com/manhdg98/CryptoUniverse-Web3'
           target='_blank'
           rel="noopener noreferrer"
           color="secondary"
