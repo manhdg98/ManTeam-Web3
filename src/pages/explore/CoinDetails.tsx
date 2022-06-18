@@ -24,7 +24,7 @@ const CoinDetails: React.FC = () => {
       className={classes.wrapper}
       spacing={3}
       direction="row"
-      justify="center"
+      justifyContent="center"
       alignItems="stretch"
     >
       <Grid item xs={12}>

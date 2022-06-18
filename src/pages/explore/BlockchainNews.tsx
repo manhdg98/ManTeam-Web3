@@ -1,6 +1,7 @@
 import React from 'react';
 import { Theme, makeStyles } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
+import { useMoralis } from "react-moralis";
 
 const useStyles = makeStyles((theme: Theme) => ({
   wrapper: {
@@ -17,6 +18,8 @@ const useStyles = makeStyles((theme: Theme) => ({
 
 const MapTradder: React.FC = () => {
   const classes = useStyles();
+  const { authenticate, isAuthenticated, user } = useMoralis();
+  console.log("manhnt", user)
 
   return (
     <Grid

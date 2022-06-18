@@ -42,7 +42,7 @@ const Overview: React.FC = () => {
       className={classes.wrapper}
       spacing={3}
       direction="row"
-      justify="center"
+      justifyContent="center"
       alignItems="stretch"
     >
 

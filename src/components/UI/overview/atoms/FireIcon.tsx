@@ -16,7 +16,7 @@ const FireIcon: React.FC = () => {
   const classes = useStyles();
 
   return (
-    <Avatar variant="circle" className={classes.avatarColor}>
+    <Avatar variant="circular" className={classes.avatarColor}>
       <svg width="0" height="0">
         <linearGradient id="linearFire" x1="0" y1="0" x2="1" y2="1">
           <stop offset="20%" stopColor="#f12711" />

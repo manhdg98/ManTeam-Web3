@@ -40,7 +40,7 @@ const Updates: React.FC = () => {
       className={classes.wrapper}
       spacing={3}
       direction="row"
-      justify="center"
+      justifyContent="center"
       alignItems="stretch"
     >
       <Grid item xs={12} lg={8} xl={9}>

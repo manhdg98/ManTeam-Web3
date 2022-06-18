@@ -6,13 +6,14 @@ import { store } from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import { MoralisProvider } from "react-moralis";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Provider store={store}>
+  <Provider store={store}>
+    <MoralisProvider appId="" serverUrl="">
       <App />
-    </Provider>
-  </React.StrictMode>,
+    </MoralisProvider>
+  </Provider>,
   document.getElementById('root')
 );
 

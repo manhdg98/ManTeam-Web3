@@ -20,6 +20,7 @@ import Updates from './explore/Updates';
 import DeFi from './explore/DeFi';
 import MapTradder from './explore/MapTradder';
 import { RootModule } from '../models';
+import BlockchainNews from './explore/BlockchainNews';
 
 const Main: React.FC = () => {
   const rootModule: RootModule[] = [
@@ -89,7 +90,7 @@ const Main: React.FC = () => {
           label: 'Blockchain News',
           path: '/blockchain-news',
           icon: <ListAlt />,
-          page: <MapTradder />,
+          page: <BlockchainNews />,
           index: 7
         }
       ]

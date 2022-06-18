@@ -42,7 +42,7 @@ const DialogLayout: React.FC<Props> = (
   const classes = useStyles();
 
   return (
-    <Dialog classes={{ paper: classes.dialogPaper }} open={open} onBackdropClick={toggleClose} maxWidth={maxWidth}>
+    <Dialog classes={{ paper: classes.dialogPaper }} open={open} onClose={toggleClose} maxWidth={maxWidth}>
       <DialogTitle disableTypography>
         <Typography variant="h6" className={classes.title}>{title}</Typography>
         {subheader &&

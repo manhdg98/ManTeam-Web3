@@ -1,6 +1,6 @@
 import React from 'react';
 import Gilroy from './assets/fonts/Gilroy-ExtraBold.woff';
-import { createMuiTheme, CssBaseline, responsiveFontSizes, Theme, ThemeOptions, ThemeProvider } from '@material-ui/core';
+import { createTheme, CssBaseline, responsiveFontSizes, Theme, ThemeOptions, ThemeProvider } from '@material-ui/core';
 import { useAppSelector } from './app/hooks';
 import { selectAppState } from './features/appStateSlice';
 import Main from './pages/Main';
@@ -42,7 +42,7 @@ const App: React.FC = () => {
     },
   };
 
-  const dark: Theme = createMuiTheme({
+  const dark: Theme = createTheme({
     palette: {
       type: 'dark',
       primary: {
@@ -79,7 +79,7 @@ const App: React.FC = () => {
     ...common
   });
 
-  const light: Theme = createMuiTheme({
+  const light: Theme = createTheme({
     palette: {
       type: 'light',
       primary: {
